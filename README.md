@@ -6,7 +6,7 @@ to do so, use redis-cli
 inside redis-cli> CONFIG SET protected-mode no
 
 #to start redis-server run script located inside 
- /usr/local/bin/redis/server /etc/redis/6379.conf
+ /usr/local/bin/redis-server /etc/redis/6379.conf
 #to stop redis-server run script as
  /usr/local/bin/redis-cli shutdown
  
